@@ -16,7 +16,7 @@ public class GoatGuiClient implements ClientModInitializer {
         openKey = KeyBindingHelper.registerKeyBinding(new KeyBinding(
                 "key.goatgui.open",
                 InputUtil.Type.KEYSYM,
-                GLFW.GLFW_KEY_RIGHT_SHIFT,
+                GLFW.GLFW_KEY_BACKSLASH,
                 "category.goatgui"
         ));
 
