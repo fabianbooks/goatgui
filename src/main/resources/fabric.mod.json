@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "goatgui",
+  "version": "1.0.0",
+  "name": "GoatGUI",
+  "description": "Nowoczesne GUI z lista graczy i zakladkami.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.goat.gui.GoatGuiClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "fabric-api": "*"
+  }
+}
